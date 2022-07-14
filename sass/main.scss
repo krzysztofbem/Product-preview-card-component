@@ -5,3 +5,25 @@
 	margin: 0;
 	padding: 0;
 }
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	background-color: $cream;
+    
+}
+
+.card {
+	margin: 2rem 1rem;
+	border-radius: 10px;
+	height: 100vh;
+	overflow: hidden;
+}
+.image-mobile {
+	width: 100%;
+}
+.image-desktop {
+	display: none;
+}

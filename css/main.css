@@ -10,20 +10,33 @@ html {
 }
 
 body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.4rem;
+  color: hsl(228deg, 12%, 48%);
   background-color: hsl(30deg, 38%, 92%);
 }
 
 .card {
-  margin: 2rem 1rem;
+  margin: 3.2rem 1.7rem;
   border-radius: 10px;
-  height: 100vh;
   overflow: hidden;
 }
-
-.image-mobile {
+.card__img-image {
   width: 100%;
 }
 
-.image-desktop {
-  display: none;
+.card__text {
+  padding: 0 2rem;
+}
+.card__text-heading {
+  padding: 1rem 0;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.card__text-productName {
+  padding-bottom: 1rem;
+  font-family: "Fraunces", serif;
+  font-size: 3.2rem;
+  line-height: 3.2rem;
+  color: hsl(212deg, 21%, 14%);
 }/*# sourceMappingURL=main.css.map */

@@ -11,19 +11,36 @@ html {
 }
 
 body {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.4rem;
+	color: $dark-grayish-blue;
 	background-color: $cream;
-    
 }
 
 .card {
-	margin: 2rem 1rem;
+	margin: 3.2rem 1.7rem;
 	border-radius: 10px;
-	height: 100vh;
 	overflow: hidden;
+
+	&__img {
+		&-image {
+			width: 100%;
+		}
+	}
 }
-.image-mobile {
-	width: 100%;
-}
-.image-desktop {
-	display: none;
+.card__text {
+	padding: 0 2rem;
+
+	&-heading {
+		padding: 1rem 0;
+		letter-spacing: 2px;
+		text-transform: uppercase;
+	}
+	&-productName {
+		padding-bottom: 1rem;
+		font-family: 'Fraunces', serif;
+		font-size: 3.2rem;
+		line-height: 3.2rem;
+		color: $very-dark-blue;
+	}
 }

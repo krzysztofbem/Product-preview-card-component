@@ -29,11 +29,11 @@ body {
 	}
 }
 .card__text {
-	padding: 0 2rem;
+	padding: 0 1.2rem;
 
 	&-heading {
 		padding: 1rem 0;
-		letter-spacing: 2px;
+		letter-spacing: 3px;
 		text-transform: uppercase;
 	}
 	&-productName {
@@ -42,5 +42,22 @@ body {
 		font-size: 3.2rem;
 		line-height: 3.2rem;
 		color: $very-dark-blue;
+	}
+	&-description {
+		line-height: 2.4rem;
+	}
+	&-prices {
+		display: flex;
+		align-items: center;
+		margin: 5rem 0 1.5rem 0;
+		&-currentPrice {
+			font-family: 'Fraunces', serif;
+			font-size: 3rem;
+			color: $dark-cyan;
+			margin-right: 2rem;
+		}
+		&-oldPrice {
+			text-decoration: line-through;
+		}
 	}
 }

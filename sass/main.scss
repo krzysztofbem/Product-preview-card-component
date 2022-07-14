@@ -18,7 +18,8 @@ body {
 }
 
 .card {
-	margin: 3.2rem 1.7rem;
+	border: 1px solid black;
+	margin: 3.1rem 1.7rem;
 	border-radius: 10px;
 	overflow: hidden;
 
@@ -27,37 +28,54 @@ body {
 			width: 100%;
 		}
 	}
-}
-.card__text {
-	padding: 0 1.2rem;
+	.card__text {
+		padding: 0 1.5rem;
 
-	&-heading {
-		padding: 1rem 0;
-		letter-spacing: 3px;
-		text-transform: uppercase;
-	}
-	&-productName {
-		padding-bottom: 1rem;
-		font-family: 'Fraunces', serif;
-		font-size: 3.2rem;
-		line-height: 3.2rem;
-		color: $very-dark-blue;
-	}
-	&-description {
-		line-height: 2.4rem;
-	}
-	&-prices {
-		display: flex;
-		align-items: center;
-		margin: 5rem 0 1.5rem 0;
-		&-currentPrice {
-			font-family: 'Fraunces', serif;
-			font-size: 3rem;
-			color: $dark-cyan;
-			margin-right: 2rem;
+		&-heading {
+			padding-top: 1.8rem;
+			padding-bottom: 1.4rem;
+			letter-spacing: 3px;
+			text-transform: uppercase;
 		}
-		&-oldPrice {
-			text-decoration: line-through;
+		&-productName {
+			padding-bottom: 1rem;
+			font-family: 'Fraunces', serif;
+			font-size: 3.2rem;
+			line-height: 3.2rem;
+			color: $very-dark-blue;
+		}
+		&-description {
+			line-height: 2.4rem;
+		}
+		&-prices {
+			display: flex;
+			align-items: center;
+			margin: 4rem 0 1.5rem 0;
+			&-currentPrice {
+				font-family: 'Fraunces', serif;
+				font-size: 3rem;
+				color: $dark-cyan;
+				margin-right: 2rem;
+			}
+			&-oldPrice {
+				text-decoration: line-through;
+			}
+		}
+	}
+	&__btn {
+		margin-bottom: 1.8rem;
+		&-cartBtn {
+			padding: 1.5rem;
+			width: 100%;
+			border-radius: 10px;
+			border: none;
+			font-family: 'Montserrat', sans-serif;
+			font-weight: bold;
+			color: $White;
+			background-color: $dark-cyan;
+			img {
+				margin-right: 1rem;
+			}
 		}
 	}
 }

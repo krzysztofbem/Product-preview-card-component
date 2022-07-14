@@ -17,47 +17,64 @@ body {
 }
 
 .card {
-  margin: 3.2rem 1.7rem;
+  border: 1px solid black;
+  margin: 3.1rem 1.7rem;
   border-radius: 10px;
   overflow: hidden;
 }
 .card__img-image {
   width: 100%;
 }
-
-.card__text {
-  padding: 0 1.2rem;
+.card .card__text {
+  padding: 0 1.5rem;
 }
-.card__text-heading {
-  padding: 1rem 0;
+.card .card__text-heading {
+  padding-top: 1.8rem;
+  padding-bottom: 1.4rem;
   letter-spacing: 3px;
   text-transform: uppercase;
 }
-.card__text-productName {
+.card .card__text-productName {
   padding-bottom: 1rem;
   font-family: "Fraunces", serif;
   font-size: 3.2rem;
   line-height: 3.2rem;
   color: hsl(212deg, 21%, 14%);
 }
-.card__text-description {
+.card .card__text-description {
   line-height: 2.4rem;
 }
-.card__text-prices {
+.card .card__text-prices {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 5rem 0 1.5rem 0;
+  margin: 4rem 0 1.5rem 0;
 }
-.card__text-prices-currentPrice {
+.card .card__text-prices-currentPrice {
   font-family: "Fraunces", serif;
   font-size: 3rem;
   color: hsl(158deg, 36%, 37%);
   margin-right: 2rem;
 }
-.card__text-prices-oldPrice {
+.card .card__text-prices-oldPrice {
   text-decoration: line-through;
+}
+.card__btn {
+  margin-bottom: 1.8rem;
+}
+.card__btn-cartBtn {
+  padding: 1.5rem;
+  width: 100%;
+  border-radius: 10px;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  color: hsl(0deg, 0%, 100%);
+  background-color: hsl(158deg, 36%, 37%);
+}
+.card__btn-cartBtn img {
+  margin-right: 1rem;
 }/*# sourceMappingURL=main.css.map */

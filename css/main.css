@@ -13,11 +13,12 @@ body {
   background-color: hsl(30deg, 38%, 92%);
   font-family: "Montserrat", sans-serif;
   font-size: 1.4rem;
+  height: 100vh;
 }
 
 .card {
   margin: 3rem 1.5rem;
-  border-radius: 10px;
+  border-radius: 12px;
   overflow: hidden;
   background-color: hsl(0deg, 0%, 100%);
 }
@@ -29,8 +30,7 @@ body {
   display: none;
 }
 .card__body {
-  border: 1px solid black;
-  padding: 0 2.2rem;
+  padding: 0 2.2rem 2.5rem;
 }
 .card__text {
   color: hsl(228deg, 12%, 48%);
@@ -64,4 +64,12 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+.card__btns {
+  background-color: hsl(158deg, 36%, 37%);
+  margin-top: 2rem;
+  padding: 1.5rem 0;
+  color: hsl(0deg, 0%, 100%);
+  font-weight: 700;
+  text-align: center;
 }/*# sourceMappingURL=main.css.map */

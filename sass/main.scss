@@ -34,13 +34,22 @@ body {
 	}
 	&__body {
 		border: 1px solid black;
-		padding: 0 2rem;
+		padding: 0 2.2rem;
 	}
 	&__text {
 		color: $dark-grayish-blue;
+		line-height: 2.4rem;
 		&--uppercase {
 			text-transform: uppercase;
 			letter-spacing: 2px;
+			padding: 1.3rem 0;
+		}
+		&--preview {
+			padding: 1.6rem 0 4rem;
+			font-size: 1.3rem;
+		}
+		&--oldPrice {
+			text-decoration: line-through;
 		}
 	}
 	&__title {
@@ -50,7 +59,7 @@ body {
 
 		&--currentPrice {
 			color: $dark-cyan;
-			margin-right: 2rem;
+			padding-right: 2rem;
 		}
 	}
 	&__prices {

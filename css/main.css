@@ -30,14 +30,23 @@ body {
 }
 .card__body {
   border: 1px solid black;
-  padding: 0 2rem;
+  padding: 0 2.2rem;
 }
 .card__text {
   color: hsl(228deg, 12%, 48%);
+  line-height: 2.4rem;
 }
 .card__text--uppercase {
   text-transform: uppercase;
   letter-spacing: 2px;
+  padding: 1.3rem 0;
+}
+.card__text--preview {
+  padding: 1.6rem 0 4rem;
+  font-size: 1.3rem;
+}
+.card__text--oldPrice {
+  text-decoration: line-through;
 }
 .card__title {
   font-family: "Fraunces", serif;
@@ -46,7 +55,7 @@ body {
 }
 .card__title--currentPrice {
   color: hsl(158deg, 36%, 37%);
-  margin-right: 2rem;
+  padding-right: 2rem;
 }
 .card__prices {
   display: -webkit-box;

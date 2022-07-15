@@ -118,6 +118,10 @@ body {
     width: 100%;
     height: 100%;
   }
+  .card__btns {
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
   .card__btns:hover {
     cursor: pointer;
     background-color: hsl(156deg, 42%, 18%);

@@ -110,6 +110,9 @@ body {
 				height: 100%;
 			}
 		}
+		&__btns {
+			transition: 0.5s;
+		}
 		&__btns:hover {
 			cursor: pointer;
 			background-color: colors.$very-dark-cyan;

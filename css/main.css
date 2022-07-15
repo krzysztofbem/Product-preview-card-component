@@ -10,70 +10,49 @@ html {
 }
 
 body {
+  background-color: hsl(30deg, 38%, 92%);
   font-family: "Montserrat", sans-serif;
   font-size: 1.4rem;
-  color: hsl(228deg, 12%, 48%);
-  background-color: hsl(30deg, 38%, 92%);
 }
 
 .card {
-  margin: 3.1rem 1.7rem;
+  margin: 3rem 1.5rem;
   border-radius: 10px;
   overflow: hidden;
+  background-color: hsl(0deg, 0%, 100%);
 }
-.card__img-image {
+.card__img--mobile {
+  margin: auto;
   width: 100%;
 }
-.card .card__text {
-  padding: 0 1.5rem;
+.card__img--desktop {
+  display: none;
 }
-.card .card__text-heading {
-  padding-top: 1.8rem;
-  padding-bottom: 1.4rem;
-  letter-spacing: 3px;
+.card__body {
+  border: 1px solid black;
+  padding: 0 2rem;
+}
+.card__text {
+  color: hsl(228deg, 12%, 48%);
+}
+.card__text--uppercase {
   text-transform: uppercase;
+  letter-spacing: 2px;
 }
-.card .card__text-productName {
-  padding-bottom: 1rem;
+.card__title {
   font-family: "Fraunces", serif;
   font-size: 3.2rem;
-  line-height: 3.2rem;
-  color: hsl(212deg, 21%, 14%);
+  line-height: 3rem;
 }
-.card .card__text-description {
-  line-height: 2.4rem;
+.card__title--currentPrice {
+  color: hsl(158deg, 36%, 37%);
+  margin-right: 2rem;
 }
-.card .card__text-prices {
+.card__prices {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 4rem 0 1.5rem 0;
-}
-.card .card__text-prices-currentPrice {
-  font-family: "Fraunces", serif;
-  font-size: 3rem;
-  color: hsl(158deg, 36%, 37%);
-  margin-right: 2rem;
-}
-.card .card__text-prices-oldPrice {
-  text-decoration: line-through;
-}
-.card__btn {
-  margin-bottom: 1.8rem;
-}
-.card__btn-cartBtn {
-  padding: 1.5rem;
-  width: 100%;
-  border-radius: 10px;
-  border: none;
-  font-family: "Montserrat", sans-serif;
-  font-weight: bold;
-  color: hsl(0deg, 0%, 100%);
-  background-color: hsl(158deg, 36%, 37%);
-}
-.card__btn-cartBtn img {
-  margin-right: 1rem;
 }/*# sourceMappingURL=main.css.map */
